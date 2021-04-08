@@ -101,10 +101,10 @@ namespace VRC.Core
                       (!string.IsNullOrEmpty(existingFileId) ? existingFileId : "<new>") + ", name: " + friendlyName, DebugLevel.All);
 
             // init remote config
-            if (!RemoteConfig.IsInitialized())
+            if (!ConfigManager.RemoteConfig.IsInitialized())
             {
                 bool done = false;
-                RemoteConfig.Init(
+                ConfigManager.RemoteConfig.Init(
                     delegate () { done = true; },
                     delegate () { done = true; }
                 );
@@ -112,7 +112,7 @@ namespace VRC.Core
                 while (!done)
                     yield return null;
 
-                if (!RemoteConfig.IsInitialized())
+                if (!ConfigManager.RemoteConfig.IsInitialized())
                 {
                     Error(onError, null, "Failed to fetch configuration.");
                     yield break;
@@ -121,7 +121,7 @@ namespace VRC.Core
 
             // configure delta compression
             {
-                EnableDeltaCompression = RemoteConfig.GetBool("sdkEnableDeltaCompression", false);
+                EnableDeltaCompression = ConfigManager.RemoteConfig.GetBool("sdkEnableDeltaCompression", false);
             }
 
             // validate input file

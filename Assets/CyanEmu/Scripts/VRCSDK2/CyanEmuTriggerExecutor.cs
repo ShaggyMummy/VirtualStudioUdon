@@ -150,6 +150,8 @@ namespace VRCPrefabs.CyanEmu
             FireTriggerTypeInternal(VRC_Trigger.TriggerType.OnPlayerLeft);
         }
 
+        public void OnPlayerRespawn(VRCPlayerApi player) { } // SDK2 does not support this method
+
         public void OnSpawnedObject(GameObject spawnedObject)
         {
             VRC_Trigger[] triggers = spawnedObject.GetComponentsInChildren<VRC_Trigger>();
@@ -485,7 +487,7 @@ namespace VRCPrefabs.CyanEmu
                 AudioSource[] audioSources = obj.GetComponents<AudioSource>();
                 foreach (var source in audioSources)
                 {
-                    if (source.clip.name == triggerEvent.ParameterString)
+                    if (string.IsNullOrEmpty(triggerEvent.ParameterString) || source.clip.name == triggerEvent.ParameterString)
                     {
                         source.Play();
                     }

@@ -24,34 +24,18 @@ MonoBehaviour:
     null\r\n    instance_4: %UnityEngineUISlider, null\r\n    value_1: %SystemSingle,
     null\r\n    instance_5: %UnityEngineUISlider, null\r\n    value_2: %SystemSingle,
     null\r\n    player_0: %VRCSDKBaseVRCPlayerApi, null\r\n    obj_0: %UnityEngineGameObject,
-    this\r\n    instance_6: %UnityEngineMaterial, null\r\n    value_3: %UnityEngineColor,
-    null\r\n    H_0: %SystemSingle, null\r\n    S_0: %SystemSingle, null\r\n    V_0:
-    %SystemSingle, null\r\n    instance_7: %UnityEngineUISlider, null\r\n    instance_8:
-    %UnityEngineUISlider, null\r\n    instance_9: %UnityEngineUISlider, null\r\n    instance_A:
-    %UnityEngineMaterial, null\r\n    name_0: %SystemString, null\r\n    value_4:
-    %UnityEngineColor, null\r\n    H_1: %SystemSingle, null\r\n    S_1: %SystemSingle,
-    null\r\n    V_1: %SystemSingle, null\r\n    instance_B: %UnityEngineUISlider,
-    null\r\n    instance_C: %UnityEngineUISlider, null\r\n    Single_0: %SystemSingle,
-    null\r\n    Single_1: %SystemSingle, null\r\n    instance_D: %UnityEngineUISlider,
-    null\r\n    instance_E: %UnityEngineSkinnedMeshRenderer, null\r\n    index_0:
-    %SystemInt32, null\r\n    value_5: %SystemSingle, null\r\n    Single_2: %SystemSingle,
-    null\r\n    Single_3: %SystemSingle, null\r\n    a_0: %SystemSingle, null\r\n
-    \   b_0: %SystemSingle, null\r\n    value_6: %SystemSingle, null\r\n    instance_10:
-    %UnityEngineSkinnedMeshRenderer, null\r\n    index_1: %SystemInt32, null\r\n    value_7:
-    %SystemSingle, null\r\n    Single_4: %SystemSingle, null\r\n    Single_5: %SystemSingle,
-    null\r\n    instance_F: %UnityEngineUISlider, null\r\n    SliderHue: %UnityEngineUISlider,
-    null\r\n    SliderSaturation: %UnityEngineUISlider, null\r\n    SliderLightness:
-    %UnityEngineUISlider, null\r\n    SaturationSlidercolor: %UnityEngineMaterial,
-    null\r\n    LightMeshrenderer: %UnityEngineSkinnedMeshRenderer, null\r\n    HueValue:
-    %SystemSingle, null\r\n    SaturationValue: %SystemSingle, null\r\n    LightnessValue:
-    %SystemSingle, null\r\n    BeamFovValue: %SystemSingle, null\r\n    DistanceValue:
-    %SystemSingle, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export _onPreSerialization\r\n
-    \   \r\n    _onPreSerialization:\r\n    \r\n        PUSH, SliderHue\r\n        PUSH,
-    instance_0\r\n        COPY\r\n        PUSH, instance_0\r\n        PUSH, HueValue\r\n
-    \       EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n        PUSH,
-    HueValue\r\n        PUSH, HueValue\r\n        COPY\r\n        PUSH, SliderSaturation\r\n
-    \       PUSH, instance_1\r\n        COPY\r\n        PUSH, instance_1\r\n        PUSH,
-    SaturationValue\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
+    this\r\n    SliderHue: %UnityEngineUISlider, null\r\n    SliderSaturation: %UnityEngineUISlider,
+    null\r\n    SliderLightness: %UnityEngineUISlider, null\r\n    SaturationSlidercolor:
+    %UnityEngineMaterial, null\r\n    LightMeshrenderer: %UnityEngineSkinnedMeshRenderer,
+    null\r\n    HueValue: %SystemSingle, null\r\n    SaturationValue: %SystemSingle,
+    null\r\n    LightnessValue: %SystemSingle, null\r\n    BeamFovValue: %SystemSingle,
+    null\r\n    DistanceValue: %SystemSingle, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n
+    \   .export _onPreSerialization\r\n    \r\n    _onPreSerialization:\r\n    \r\n
+    \       PUSH, SliderHue\r\n        PUSH, instance_0\r\n        COPY\r\n        PUSH,
+    instance_0\r\n        PUSH, HueValue\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
+    \       PUSH, HueValue\r\n        PUSH, HueValue\r\n        COPY\r\n        PUSH,
+    SliderSaturation\r\n        PUSH, instance_1\r\n        COPY\r\n        PUSH,
+    instance_1\r\n        PUSH, SaturationValue\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
     \       PUSH, SaturationValue\r\n        PUSH, SaturationValue\r\n        COPY\r\n
     \       PUSH, SliderLightness\r\n        PUSH, instance_2\r\n        COPY\r\n
     \       PUSH, instance_2\r\n        PUSH, LightnessValue\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
@@ -67,43 +51,6 @@ MonoBehaviour:
     \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export SetOwner\r\n    \r\n    SetOwner:\r\n
     \   \r\n        PUSH, player_0\r\n        EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n
     \       PUSH, player_0\r\n        PUSH, obj_0\r\n        EXTERN, \"VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid\"\r\n
-    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export OnValueChanged\r\n    \r\n    OnValueChanged:\r\n
-    \   \r\n        PUSH, SaturationSlidercolor\r\n        PUSH, instance_6\r\n        COPY\r\n
-    \       PUSH, SliderHue\r\n        PUSH, instance_7\r\n        COPY\r\n        PUSH,
-    instance_7\r\n        PUSH, H_0\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
-    \       PUSH, SliderSaturation\r\n        PUSH, instance_8\r\n        COPY\r\n
-    \       PUSH, instance_8\r\n        PUSH, S_0\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
-    \       PUSH, SliderLightness\r\n        PUSH, instance_9\r\n        COPY\r\n
-    \       PUSH, instance_9\r\n        PUSH, V_0\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
-    \       PUSH, H_0\r\n        PUSH, S_0\r\n        PUSH, V_0\r\n        PUSH, value_3\r\n
-    \       EXTERN, \"UnityEngineColor.__HSVToRGB__SystemSingle_SystemSingle_SystemSingle__UnityEngineColor\"\r\n
-    \       PUSH, instance_6\r\n        PUSH, value_3\r\n        EXTERN, \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n
-    \       PUSH, SliderHue\r\n        PUSH, instance_B\r\n        COPY\r\n        PUSH,
-    instance_B\r\n        PUSH, H_1\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
-    \       PUSH, SliderSaturation\r\n        PUSH, instance_C\r\n        COPY\r\n
-    \       PUSH, instance_C\r\n        PUSH, S_1\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
-    \       PUSH, SliderLightness\r\n        PUSH, instance_D\r\n        COPY\r\n
-    \       PUSH, instance_D\r\n        PUSH, Single_0\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
-    \       PUSH, Single_0\r\n        PUSH, Single_1\r\n        PUSH, V_1\r\n        EXTERN,
-    \"SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle\"\r\n
-    \       PUSH, H_1\r\n        PUSH, S_1\r\n        PUSH, V_1\r\n        PUSH, value_4\r\n
-    \       EXTERN, \"UnityEngineColor.__HSVToRGB__SystemSingle_SystemSingle_SystemSingle__UnityEngineColor\"\r\n
-    \       PUSH, instance_A\r\n        PUSH, name_0\r\n        PUSH, value_4\r\n
-    \       EXTERN, \"UnityEngineMaterial.__SetColor__SystemString_UnityEngineColor__SystemVoid\"\r\n
-    \       PUSH, LightMeshrenderer\r\n        PUSH, instance_E\r\n        COPY\r\n
-    \       PUSH, instance_F\r\n        PUSH, value_6\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
-    \       PUSH, a_0\r\n        PUSH, b_0\r\n        PUSH, value_6\r\n        PUSH,
-    Single_2\r\n        EXTERN, \"UnityEngineMathf.__InverseLerp__SystemSingle_SystemSingle_SystemSingle__SystemSingle\"\r\n
-    \       PUSH, Single_2\r\n        PUSH, Single_3\r\n        PUSH, value_5\r\n
-    \       EXTERN, \"SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle\"\r\n
-    \       PUSH, instance_E\r\n        PUSH, index_0\r\n        PUSH, value_5\r\n
-    \       EXTERN, \"UnityEngineSkinnedMeshRenderer.__SetBlendShapeWeight__SystemInt32_SystemSingle__SystemVoid\"\r\n
-    \       PUSH, LightMeshrenderer\r\n        PUSH, instance_10\r\n        COPY\r\n
-    \       PUSH, value_6\r\n        PUSH, Single_4\r\n        COPY\r\n        PUSH,
-    value_6\r\n        PUSH, Single_5\r\n        PUSH, value_7\r\n        EXTERN,
-    \"SystemSingle.__op_Multiplication__SystemSingle_SystemSingle__SystemSingle\"\r\n
-    \       PUSH, instance_10\r\n        PUSH, index_1\r\n        PUSH, value_7\r\n
-    \       EXTERN, \"UnityEngineSkinnedMeshRenderer.__SetBlendShapeWeight__SystemInt32_SystemSingle__SystemVoid\"\r\n
     \       JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -813,7 +760,7 @@ MonoBehaviour:
       nodeUIDs:
       - 
       flowUIDs:
-      - 31b14086-6694-4454-896a-adaf0848d771
+      - 
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|OnValueChanged
@@ -835,15 +782,16 @@ MonoBehaviour:
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
+    updateOrder: 0
   graphElementData:
   - type: 5
-    uid: 5c8b27ac-741c-4f95-960b-84db95b1851f
+    uid: 03461b70-71cc-4f21-8598-d210f99f1c36
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":131.0,"width":312.0,"height":345.0}}'
   - type: 4
-    uid: 72f9e6eb-6d31-459f-9e04-d7dc2c637abb
+    uid: 67f3d90d-064d-4342-8a94-31ca769dba66
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: 630.634, y: 187.71324}
-    scale: 0.8695652
+    position: {x: 625.16, y: 134.14615}
+    scale: 1
   version: 1.0.0
   showAssembly: 0

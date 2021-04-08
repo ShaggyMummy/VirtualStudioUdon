@@ -126,6 +126,11 @@ namespace VRCPrefabs.CyanEmu
 
         public void Pickup()
         {
+            if (isHeld_)
+            {
+                return;
+            }
+            
             isHeld_ = true;
 
             gameObject.OnPickup();
@@ -184,7 +189,12 @@ namespace VRCPrefabs.CyanEmu
 
         public void Drop()
         {
-            this.Log("Dropping up object " + name);
+            if (!isHeld_)
+            {
+                return;
+            }
+            
+            this.Log("Dropping object " + name);
             isHeld_ = false;
 
             gameObject.OnDrop();

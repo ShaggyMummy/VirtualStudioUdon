@@ -638,6 +638,7 @@ MonoBehaviour:
   autoPlay: 1
   loop: 0
   maximumResolution: 720
+  useLowLatency: 0
 --- !u!114 &5699767620698802764
 MonoBehaviour:
   m_ObjectHideFlags: 0
