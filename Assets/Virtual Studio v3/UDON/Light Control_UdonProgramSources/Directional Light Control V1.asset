@@ -17,37 +17,37 @@ MonoBehaviour:
   udonAssembly: ".data_start\r\n\r\n    .export SliderHue\r\n    .export SliderSaturation\r\n
     \   .export SliderLightness\r\n    .export LightObject\r\n    .export SaturationSlidercolor\r\n
     \   .export SliderSize\r\n    .export SkyBoxMaterial\r\n    .export SliderAtmosphere\r\n
-    \   .export SkyFogMaterial\r\n    .sync HueValue, none\r\n    .sync SaturationValue,
-    none\r\n    .sync LightnessValue, none\r\n    .sync AtmosphereValue, none\r\n
-    \   \r\n    instance_0: %UnityEngineUISlider, null\r\n    instance_1: %UnityEngineUISlider,
+    \   .sync HueValue, none\r\n    .sync SaturationValue, none\r\n    .sync LightnessValue,
+    none\r\n    .sync AtmosphereValue, none\r\n    \r\n    player_0: %VRCSDKBaseVRCPlayerApi,
+    null\r\n    obj_0: %UnityEngineGameObject, this\r\n    instance_A: %UnityEngineLight,
+    null\r\n    value_5: %UnityEngineColor, null\r\n    H_0: %SystemSingle, null\r\n
+    \   S_0: %SystemSingle, null\r\n    V_0: %SystemSingle, null\r\n    instance_B:
+    %UnityEngineUISlider, null\r\n    instance_C: %UnityEngineUISlider, null\r\n    instance_D:
+    %UnityEngineUISlider, null\r\n    instance_E: %UnityEngineMaterial, null\r\n    value_6:
+    %UnityEngineColor, null\r\n    H_1: %SystemSingle, null\r\n    S_1: %SystemSingle,
+    null\r\n    V_1: %SystemSingle, null\r\n    instance_F: %UnityEngineUISlider,
+    null\r\n    instance_10: %UnityEngineUISlider, null\r\n    instance_11: %UnityEngineMaterial,
+    null\r\n    name_0: %SystemString, null\r\n    value_7: %SystemSingle, null\r\n
+    \   instance_12: %UnityEngineUISlider, null\r\n    instance_13: %UnityEngineMaterial,
+    null\r\n    name_1: %SystemString, null\r\n    value_8: %SystemSingle, null\r\n
+    \   instance_14: %UnityEngineUISlider, null\r\n    Boolean_0: %SystemBoolean,
+    null\r\n    player_1: %VRCSDKBaseVRCPlayerApi, null\r\n    obj_1: %UnityEngineGameObject,
+    this\r\n    instance_0: %UnityEngineUISlider, null\r\n    instance_1: %UnityEngineUISlider,
     null\r\n    instance_2: %UnityEngineUISlider, null\r\n    instance_3: %UnityEngineUISlider,
     null\r\n    instance_4: %UnityEngineUISlider, null\r\n    instance_5: %UnityEngineUISlider,
     null\r\n    value_0: %SystemSingle, null\r\n    instance_6: %UnityEngineUISlider,
     null\r\n    value_1: %SystemSingle, null\r\n    instance_7: %UnityEngineUISlider,
     null\r\n    value_2: %SystemSingle, null\r\n    instance_8: %UnityEngineUISlider,
-    null\r\n    value_3: %SystemSingle, null\r\n    player_0: %VRCSDKBaseVRCPlayerApi,
-    null\r\n    obj_0: %UnityEngineGameObject, this\r\n    instance_9: %UnityEngineLight,
-    null\r\n    value_4: %UnityEngineColor, null\r\n    H_0: %SystemSingle, null\r\n
-    \   S_0: %SystemSingle, null\r\n    V_0: %SystemSingle, null\r\n    instance_A:
-    %UnityEngineUISlider, null\r\n    instance_B: %UnityEngineUISlider, null\r\n    instance_C:
-    %UnityEngineUISlider, null\r\n    instance_D: %UnityEngineMaterial, null\r\n    value_5:
-    %UnityEngineColor, null\r\n    H_1: %SystemSingle, null\r\n    S_1: %SystemSingle,
-    null\r\n    V_1: %SystemSingle, null\r\n    instance_E: %UnityEngineUISlider,
-    null\r\n    instance_F: %UnityEngineUISlider, null\r\n    instance_10: %UnityEngineMaterial,
-    null\r\n    name_0: %SystemString, null\r\n    value_6: %SystemSingle, null\r\n
-    \   instance_12: %UnityEngineMaterial, null\r\n    name_1: %SystemString, null\r\n
-    \   value_7: %SystemSingle, null\r\n    instance_13: %UnityEngineUISlider, null\r\n
-    \   instance_14: %UnityEngineMaterial, null\r\n    name_2: %SystemString, null\r\n
-    \   value_8: %SystemSingle, null\r\n    instance_11: %UnityEngineUISlider, null\r\n
-    \   SliderHue: %UnityEngineUISlider, null\r\n    SliderSaturation: %UnityEngineUISlider,
-    null\r\n    SliderLightness: %UnityEngineUISlider, null\r\n    LightObject: %UnityEngineLight,
-    null\r\n    SaturationSlidercolor: %UnityEngineMaterial, null\r\n    Lightmeshcolor:
-    %UnityEngineMaterial, null\r\n    HueValue: %SystemSingle, null\r\n    SaturationValue:
-    %SystemSingle, null\r\n    LightnessValue: %SystemSingle, null\r\n    SliderSize:
-    %UnityEngineUISlider, null\r\n    SizeValue: %SystemSingle, null\r\n    SkyBoxMaterial:
-    %UnityEngineMaterial, null\r\n    SliderAtmosphere: %UnityEngineUISlider, null\r\n
-    \   AtmosphereValue: %SystemSingle, null\r\n    SkyFogMaterial: %UnityEngineMaterial,
-    null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export _onPreSerialization\r\n
+    null\r\n    value_3: %SystemSingle, null\r\n    instance_9: %UnityEngineUISlider,
+    null\r\n    value_4: %SystemSingle, null\r\n    SliderHue: %UnityEngineUISlider,
+    null\r\n    SliderSaturation: %UnityEngineUISlider, null\r\n    SliderLightness:
+    %UnityEngineUISlider, null\r\n    LightObject: %UnityEngineLight, null\r\n    SaturationSlidercolor:
+    %UnityEngineMaterial, null\r\n    Lightmeshcolor: %UnityEngineMaterial, null\r\n
+    \   HueValue: %SystemSingle, null\r\n    SaturationValue: %SystemSingle, null\r\n
+    \   LightnessValue: %SystemSingle, null\r\n    SliderSize: %UnityEngineUISlider,
+    null\r\n    SizeValue: %SystemSingle, null\r\n    SkyBoxMaterial: %UnityEngineMaterial,
+    null\r\n    SliderAtmosphere: %UnityEngineUISlider, null\r\n    AtmosphereValue:
+    %SystemSingle, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export _onPreSerialization\r\n
     \   \r\n    _onPreSerialization:\r\n    \r\n        PUSH, SliderHue\r\n        PUSH,
     instance_0\r\n        COPY\r\n        PUSH, instance_0\r\n        PUSH, HueValue\r\n
     \       EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n        PUSH,
@@ -58,58 +58,55 @@ MonoBehaviour:
     \       PUSH, SliderLightness\r\n        PUSH, instance_2\r\n        COPY\r\n
     \       PUSH, instance_2\r\n        PUSH, LightnessValue\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
     \       PUSH, LightnessValue\r\n        PUSH, LightnessValue\r\n        COPY\r\n
-    \       PUSH, SliderSize\r\n        PUSH, instance_3\r\n        COPY\r\n        PUSH,
-    instance_3\r\n        PUSH, SizeValue\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
-    \       PUSH, SizeValue\r\n        PUSH, SizeValue\r\n        COPY\r\n        PUSH,
-    SliderAtmosphere\r\n        PUSH, instance_4\r\n        COPY\r\n        PUSH,
-    instance_4\r\n        PUSH, AtmosphereValue\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
+    \       PUSH, SliderAtmosphere\r\n        PUSH, instance_3\r\n        COPY\r\n
+    \       PUSH, instance_3\r\n        PUSH, AtmosphereValue\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
     \       PUSH, AtmosphereValue\r\n        PUSH, AtmosphereValue\r\n        COPY\r\n
-    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onDeserialization\r\n    \r\n
-    \   _onDeserialization:\r\n    \r\n        PUSH, SliderHue\r\n        PUSH, instance_5\r\n
-    \       COPY\r\n        PUSH, instance_5\r\n        PUSH, HueValue\r\n        EXTERN,
-    \"UnityEngineUISlider.__set_value__SystemSingle__SystemVoid\"\r\n        PUSH,
-    SliderSaturation\r\n        PUSH, instance_6\r\n        COPY\r\n        PUSH,
-    instance_6\r\n        PUSH, SaturationValue\r\n        EXTERN, \"UnityEngineUISlider.__set_value__SystemSingle__SystemVoid\"\r\n
-    \       PUSH, SliderSize\r\n        PUSH, instance_7\r\n        COPY\r\n        PUSH,
-    instance_7\r\n        PUSH, SizeValue\r\n        EXTERN, \"UnityEngineUISlider.__set_value__SystemSingle__SystemVoid\"\r\n
+    \       PUSH, SliderSize\r\n        PUSH, instance_4\r\n        COPY\r\n        PUSH,
+    instance_4\r\n        PUSH, SizeValue\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
+    \       PUSH, SizeValue\r\n        PUSH, SizeValue\r\n        COPY\r\n        JUMP,
+    0xFFFFFFFC\r\n    \r\n    .export _onDeserialization\r\n    \r\n    _onDeserialization:\r\n
+    \   \r\n        PUSH, SliderHue\r\n        PUSH, instance_5\r\n        COPY\r\n
+    \       PUSH, instance_5\r\n        PUSH, HueValue\r\n        EXTERN, \"UnityEngineUISlider.__set_value__SystemSingle__SystemVoid\"\r\n
+    \       PUSH, SliderSaturation\r\n        PUSH, instance_6\r\n        COPY\r\n
+    \       PUSH, instance_6\r\n        PUSH, SaturationValue\r\n        EXTERN, \"UnityEngineUISlider.__set_value__SystemSingle__SystemVoid\"\r\n
+    \       PUSH, SliderLightness\r\n        PUSH, instance_7\r\n        COPY\r\n
+    \       PUSH, instance_7\r\n        PUSH, LightnessValue\r\n        EXTERN, \"UnityEngineUISlider.__set_value__SystemSingle__SystemVoid\"\r\n
     \       PUSH, SliderAtmosphere\r\n        PUSH, instance_8\r\n        COPY\r\n
     \       PUSH, instance_8\r\n        PUSH, AtmosphereValue\r\n        EXTERN, \"UnityEngineUISlider.__set_value__SystemSingle__SystemVoid\"\r\n
+    \       PUSH, SliderSize\r\n        PUSH, instance_9\r\n        COPY\r\n        PUSH,
+    instance_9\r\n        PUSH, SizeValue\r\n        EXTERN, \"UnityEngineUISlider.__set_value__SystemSingle__SystemVoid\"\r\n
     \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export SetOwner\r\n    \r\n    SetOwner:\r\n
     \   \r\n        PUSH, player_0\r\n        EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n
     \       PUSH, player_0\r\n        PUSH, obj_0\r\n        EXTERN, \"VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid\"\r\n
-    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export _fixedUpdate\r\n    \r\n    _fixedUpdate:\r\n
-    \   \r\n        PUSH, LightObject\r\n        PUSH, instance_9\r\n        COPY\r\n
-    \       PUSH, SliderHue\r\n        PUSH, instance_A\r\n        COPY\r\n        PUSH,
-    instance_A\r\n        PUSH, H_0\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
-    \       PUSH, SliderSaturation\r\n        PUSH, instance_B\r\n        COPY\r\n
-    \       PUSH, instance_B\r\n        PUSH, S_0\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
-    \       PUSH, SliderLightness\r\n        PUSH, instance_C\r\n        COPY\r\n
-    \       PUSH, instance_C\r\n        PUSH, V_0\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
-    \       PUSH, H_0\r\n        PUSH, S_0\r\n        PUSH, V_0\r\n        PUSH, value_4\r\n
+    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export OnValueChanged\r\n    \r\n    OnValueChanged:\r\n
+    \   \r\n        PUSH, LightObject\r\n        PUSH, instance_A\r\n        COPY\r\n
+    \       PUSH, SliderHue\r\n        PUSH, instance_B\r\n        COPY\r\n        PUSH,
+    instance_B\r\n        PUSH, H_0\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
+    \       PUSH, SliderSaturation\r\n        PUSH, instance_C\r\n        COPY\r\n
+    \       PUSH, instance_C\r\n        PUSH, S_0\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
+    \       PUSH, SliderLightness\r\n        PUSH, instance_D\r\n        COPY\r\n
+    \       PUSH, instance_D\r\n        PUSH, V_0\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
+    \       PUSH, H_0\r\n        PUSH, S_0\r\n        PUSH, V_0\r\n        PUSH, value_5\r\n
     \       EXTERN, \"UnityEngineColor.__HSVToRGB__SystemSingle_SystemSingle_SystemSingle__UnityEngineColor\"\r\n
-    \       PUSH, instance_9\r\n        PUSH, value_4\r\n        EXTERN, \"UnityEngineLight.__set_color__UnityEngineColor__SystemVoid\"\r\n
-    \       PUSH, SaturationSlidercolor\r\n        PUSH, instance_D\r\n        COPY\r\n
-    \       PUSH, SliderHue\r\n        PUSH, instance_E\r\n        COPY\r\n        PUSH,
-    instance_E\r\n        PUSH, H_1\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
-    \       PUSH, SliderSaturation\r\n        PUSH, instance_F\r\n        COPY\r\n
-    \       PUSH, instance_F\r\n        PUSH, S_1\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
-    \       PUSH, H_1\r\n        PUSH, S_1\r\n        PUSH, V_1\r\n        PUSH, value_5\r\n
+    \       PUSH, instance_A\r\n        PUSH, value_5\r\n        EXTERN, \"UnityEngineLight.__set_color__UnityEngineColor__SystemVoid\"\r\n
+    \       PUSH, SaturationSlidercolor\r\n        PUSH, instance_E\r\n        COPY\r\n
+    \       PUSH, SliderHue\r\n        PUSH, instance_F\r\n        COPY\r\n        PUSH,
+    instance_F\r\n        PUSH, H_1\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
+    \       PUSH, SliderSaturation\r\n        PUSH, instance_10\r\n        COPY\r\n
+    \       PUSH, instance_10\r\n        PUSH, S_1\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
+    \       PUSH, H_1\r\n        PUSH, S_1\r\n        PUSH, V_1\r\n        PUSH, value_6\r\n
     \       EXTERN, \"UnityEngineColor.__HSVToRGB__SystemSingle_SystemSingle_SystemSingle__UnityEngineColor\"\r\n
-    \       PUSH, instance_D\r\n        PUSH, value_5\r\n        EXTERN, \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n
-    \       PUSH, SkyBoxMaterial\r\n        PUSH, instance_10\r\n        COPY\r\n
-    \       PUSH, SliderSize\r\n        PUSH, instance_11\r\n        COPY\r\n        PUSH,
-    instance_11\r\n        PUSH, value_6\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
-    \       PUSH, instance_10\r\n        PUSH, name_0\r\n        PUSH, value_6\r\n
+    \       PUSH, instance_E\r\n        PUSH, value_6\r\n        EXTERN, \"UnityEngineMaterial.__set_color__UnityEngineColor__SystemVoid\"\r\n
+    \       PUSH, SkyBoxMaterial\r\n        PUSH, instance_11\r\n        COPY\r\n
+    \       PUSH, SliderSize\r\n        PUSH, instance_12\r\n        COPY\r\n        PUSH,
+    instance_12\r\n        PUSH, value_7\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
+    \       PUSH, instance_11\r\n        PUSH, name_0\r\n        PUSH, value_7\r\n
     \       EXTERN, \"UnityEngineMaterial.__SetFloat__SystemString_SystemSingle__SystemVoid\"\r\n
-    \       PUSH, SkyBoxMaterial\r\n        PUSH, instance_12\r\n        COPY\r\n
-    \       PUSH, SliderAtmosphere\r\n        PUSH, instance_13\r\n        COPY\r\n
-    \       PUSH, instance_13\r\n        PUSH, value_7\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
-    \       PUSH, instance_12\r\n        PUSH, name_1\r\n        PUSH, value_7\r\n
+    \       PUSH, SkyBoxMaterial\r\n        PUSH, instance_13\r\n        COPY\r\n
+    \       PUSH, SliderAtmosphere\r\n        PUSH, instance_14\r\n        COPY\r\n
+    \       PUSH, instance_14\r\n        PUSH, value_8\r\n        EXTERN, \"UnityEngineUISlider.__get_value__SystemSingle\"\r\n
+    \       PUSH, instance_13\r\n        PUSH, name_1\r\n        PUSH, value_8\r\n
     \       EXTERN, \"UnityEngineMaterial.__SetFloat__SystemString_SystemSingle__SystemVoid\"\r\n
-    \       PUSH, SkyFogMaterial\r\n        PUSH, instance_14\r\n        COPY\r\n
-    \       PUSH, SliderSize\r\n        PUSH, instance_11\r\n        COPY\r\n        PUSH,
-    value_6\r\n        PUSH, value_8\r\n        COPY\r\n        PUSH, instance_14\r\n
-    \       PUSH, name_2\r\n        PUSH, value_6\r\n        EXTERN, \"UnityEngineMaterial.__SetFloat__SystemString_SystemSingle__SystemVoid\"\r\n
     \       JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -187,7 +184,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|9d3746ed-6fb9-45d0-a1cf-2fc58063c3ce
     - fullName: Variable_UnityEngineUISlider
       uid: 9d3746ed-6fb9-45d0-a1cf-2fc58063c3ce
-      position: {x: 220.18262, y: 22.766846}
+      position: {x: 1160.1826, y: 522.76685}
       nodeUIDs:
       - 
       - 
@@ -314,7 +311,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
       uid: 090455f0-7a33-49a8-9f17-2377252e3c3a
-      position: {x: -180, y: 820}
+      position: {x: -200, y: 820}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -336,7 +333,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineColor.__HSVToRGB__SystemSingle_SystemSingle_SystemSingle__UnityEngineColor
       uid: 9971a6b5-e402-447e-af7f-c66d1d1aa3ed
-      position: {x: -180, y: 920}
+      position: {x: -180, y: 900}
       nodeUIDs:
       - 26a934ca-2e07-4c2a-b151-601a67ecb3f4|0
       - f8cfc93f-5590-4e4c-a9d8-cb4aa8056d28|0
@@ -414,7 +411,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Variable_SystemSingle
       uid: 618cbee8-61bf-4873-8762-fa6744fd9ac3
-      position: {x: 871.4044, y: 636.3321}
+      position: {x: 1811.4044, y: 1136.332}
       nodeUIDs:
       - 
       - 
@@ -442,7 +439,7 @@ MonoBehaviour:
       nodeValues: []
     - fullName: UnityEngineUISlider.__get_value__SystemSingle
       uid: f8cfc93f-5590-4e4c-a9d8-cb4aa8056d28
-      position: {x: -360, y: 960}
+      position: {x: -380, y: 960}
       nodeUIDs:
       - ec0c1b1b-e736-45c5-bac3-0f0b2441d591
       flowUIDs: []
@@ -451,7 +448,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Get_Variable
       uid: ec0c1b1b-e736-45c5-bac3-0f0b2441d591
-      position: {x: -560, y: 960}
+      position: {x: -600, y: 960}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -469,7 +466,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Get_Variable
       uid: 25640498-62ab-453d-b066-db1ddaf555c3
-      position: {x: -560, y: 880}
+      position: {x: -580, y: 880}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -509,7 +506,7 @@ MonoBehaviour:
       - 
       - 4659c2cf-3dec-481e-9748-b1dc7ae7eea4|0
       flowUIDs:
-      - 06c244df-4e9d-4e49-b977-8180bc63f84a
+      - 88dc8027-eedb-4af5-86b5-c23b6284bbe2
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|618cbee8-61bf-4873-8762-fa6744fd9ac3
@@ -613,16 +610,9 @@ MonoBehaviour:
       nodeUIDs: []
       flowUIDs: []
       nodeValues: []
-    - fullName: Event_FixedUpdate
-      uid: 8c3b0825-b9fd-4589-a571-7871708c6170
-      position: {x: 140, y: 540}
-      nodeUIDs: []
-      flowUIDs:
-      - aa150529-beba-47fb-9e39-084e45c8f9f3
-      nodeValues: []
     - fullName: UnityEngineUISlider.__get_value__SystemSingle
       uid: 8f44cdcd-e783-4b66-83ae-217db4601cd2
-      position: {x: -380, y: 600}
+      position: {x: -380, y: 580}
       nodeUIDs:
       - 5296ff2d-6e20-4653-a971-cfcba8d3a789|0
       flowUIDs: []
@@ -631,7 +621,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineUISlider.__get_value__SystemSingle
       uid: 95bb7a9a-f1ea-4f59-9fa9-65414886f389
-      position: {x: -380, y: 680}
+      position: {x: -380, y: 660}
       nodeUIDs:
       - 853fcb55-914d-4872-bdb3-f22118e6546e|0
       flowUIDs: []
@@ -640,7 +630,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineUISlider.__get_value__SystemSingle
       uid: b36ba162-0951-48c7-9034-1d4cc669a5f5
-      position: {x: -380, y: 760}
+      position: {x: -380, y: 740}
       nodeUIDs:
       - 37ed3c94-883b-4f76-8279-76d7b200c0df|0
       flowUIDs: []
@@ -649,7 +639,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Get_Variable
       uid: 5296ff2d-6e20-4653-a971-cfcba8d3a789
-      position: {x: -620, y: 600}
+      position: {x: -620, y: 580}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -658,7 +648,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|976fb4a1-e6b2-47ba-8dfb-3fcdd293d4b6
     - fullName: Get_Variable
       uid: 853fcb55-914d-4872-bdb3-f22118e6546e
-      position: {x: -620, y: 680}
+      position: {x: -620, y: 660}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -667,7 +657,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|27bd3de8-5ee8-43aa-9ccc-241cba375602
     - fullName: Get_Variable
       uid: 37ed3c94-883b-4f76-8279-76d7b200c0df
-      position: {x: -620, y: 760}
+      position: {x: -620, y: 740}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -676,7 +666,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|9d3746ed-6fb9-45d0-a1cf-2fc58063c3ce
     - fullName: Variable_UnityEngineUISlider
       uid: c7ce957d-0f2f-4125-bdda-42e28db565f3
-      position: {x: 560, y: -120}
+      position: {x: 2800, y: 560}
       nodeUIDs:
       - 
       - 
@@ -697,7 +687,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
       uid: 63f8f540-8309-42de-a2de-ad89af90166f
-      position: {x: -1120, y: -340}
+      position: {x: -1140, y: -180}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -706,7 +696,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|c7ce957d-0f2f-4125-bdda-42e28db565f3
     - fullName: UnityEngineUISlider.__get_value__SystemSingle
       uid: 8b5fef0c-4c8c-425d-8dc6-0ebf1045f06f
-      position: {x: -920, y: -340}
+      position: {x: -940, y: -180}
       nodeUIDs:
       - 63f8f540-8309-42de-a2de-ad89af90166f|0
       flowUIDs: []
@@ -736,12 +726,12 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Set_Variable
       uid: 06c244df-4e9d-4e49-b977-8180bc63f84a
-      position: {x: -740, y: -360}
+      position: {x: -760, y: -220}
       nodeUIDs:
       - 
       - 8b5fef0c-4c8c-425d-8dc6-0ebf1045f06f|0
       flowUIDs:
-      - 88dc8027-eedb-4af5-86b5-c23b6284bbe2
+      - 
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|8fe05d5d-2f0b-49ca-9879-53df67f35b8d
@@ -749,28 +739,19 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|SizeValue
     - fullName: Get_Variable
       uid: 98c5516d-a850-4b15-80fa-fddab1ea1a9c
-      position: {x: 600, y: -340}
+      position: {x: 600, y: 40}
       nodeUIDs:
       - 
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|8fe05d5d-2f0b-49ca-9879-53df67f35b8d
-    - fullName: Get_Variable
-      uid: 7d346a68-9cbb-4407-9932-168414574ebc
-      position: {x: 600, y: -420}
-      nodeUIDs:
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|c7ce957d-0f2f-4125-bdda-42e28db565f3
     - fullName: UnityEngineUISlider.__set_value__SystemSingle__SystemVoid
       uid: d246dcc6-e743-4f86-8680-9611598b981b
-      position: {x: 860, y: -440}
+      position: {x: 860, y: -420}
       nodeUIDs:
-      - 7d346a68-9cbb-4407-9932-168414574ebc|0
-      - 98c5516d-a850-4b15-80fa-fddab1ea1a9c|0
+      - cea78932-114f-44cd-aafd-dd90aeb2d4a1|0
+      - 706d1b6f-e573-4541-a191-4b11f9885391|0
       flowUIDs:
       - fa36234b-96bf-428f-8fac-1a1f2b3a6836
       nodeValues:
@@ -835,7 +816,7 @@ MonoBehaviour:
         stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: Get_Variable
       uid: 5591a291-c3b3-4101-88da-6470fca09d0d
-      position: {x: -400, y: 1080}
+      position: {x: -360, y: 1080}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -865,7 +846,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
       uid: 3e75f9f6-00a9-40a7-96c0-1f709bdcb9b5
-      position: {x: -1160, y: -160}
+      position: {x: -1140, y: -340}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -874,7 +855,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|f5a6984a-7d1d-4e8c-bc46-f7905b0d67db
     - fullName: UnityEngineUISlider.__get_value__SystemSingle
       uid: 16bdf0c3-a364-40c3-9fda-e096253b4c41
-      position: {x: -940, y: -160}
+      position: {x: -920, y: -340}
       nodeUIDs:
       - 3e75f9f6-00a9-40a7-96c0-1f709bdcb9b5|0
       flowUIDs: []
@@ -904,11 +885,12 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Set_Variable
       uid: 88dc8027-eedb-4af5-86b5-c23b6284bbe2
-      position: {x: -760, y: -200}
+      position: {x: -760, y: -380}
       nodeUIDs:
       - 
       - 16bdf0c3-a364-40c3-9fda-e096253b4c41|0
-      flowUIDs: []
+      flowUIDs:
+      - 06c244df-4e9d-4e49-b977-8180bc63f84a
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|20407484-aa3f-40ef-856a-154b204bec7f
@@ -916,7 +898,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|AtmosphereValue
     - fullName: Get_Variable
       uid: e76d3e82-3490-45f8-ba6f-819e835f8dfc
-      position: {x: 580, y: -160}
+      position: {x: 600, y: -140}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -925,12 +907,12 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|20407484-aa3f-40ef-856a-154b204bec7f
     - fullName: UnityEngineUISlider.__set_value__SystemSingle__SystemVoid
       uid: fa36234b-96bf-428f-8fac-1a1f2b3a6836
-      position: {x: 860, y: -240}
+      position: {x: 860, y: -260}
       nodeUIDs:
       - 08159a15-2fdb-4887-b913-f5ecc0f3bd71|0
       - e76d3e82-3490-45f8-ba6f-819e835f8dfc|0
       flowUIDs:
-      - 
+      - d1446094-ba1f-48d2-8c92-0dfdd820bef9
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
@@ -938,7 +920,7 @@ MonoBehaviour:
         stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: Get_Variable
       uid: 08159a15-2fdb-4887-b913-f5ecc0f3bd71
-      position: {x: 580, y: -240}
+      position: {x: 600, y: -220}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -971,7 +953,7 @@ MonoBehaviour:
       - 
       - 388326cd-1ff7-450e-b49e-f6b948471322|0
       flowUIDs:
-      - 3aeabc40-2291-46ef-a748-59ba8ac8d694
+      - 
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
@@ -979,61 +961,105 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|_AtmosphereThickness
       - unityObjectValue: {fileID: 0}
         stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
-    - fullName: UnityEngineMaterial.__SetFloat__SystemString_SystemSingle__SystemVoid
-      uid: 3aeabc40-2291-46ef-a748-59ba8ac8d694
-      position: {x: 80, y: 1420}
+    - fullName: Event_Custom
+      uid: 2c258eea-b477-4458-83d8-c115ed93038d
+      position: {x: 120, y: 500}
       nodeUIDs:
-      - 03b454f9-b1df-4f44-840a-23f1e3d65d6b|0
       - 
-      - 708bedce-8bbd-4f22-9fd5-0e2a71080db4|0
+      flowUIDs:
+      - aa150529-beba-47fb-9e39-084e45c8f9f3
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|OnValueChanged
+    - fullName: Get_Variable
+      uid: cea78932-114f-44cd-aafd-dd90aeb2d4a1
+      position: {x: 600, y: -400}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|9d3746ed-6fb9-45d0-a1cf-2fc58063c3ce
+    - fullName: UnityEngineUISlider.__set_value__SystemSingle__SystemVoid
+      uid: d1446094-ba1f-48d2-8c92-0dfdd820bef9
+      position: {x: 860, y: -80}
+      nodeUIDs:
+      - f168d1c3-e3c8-4553-a2f0-b4fea8b2b62b|0
+      - 98c5516d-a850-4b15-80fa-fddab1ea1a9c|0
       flowUIDs:
       - 
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|_SunSize
-      - unityObjectValue: {fileID: 0}
         stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
-    - fullName: Variable_UnityEngineMaterial
-      uid: 4f8dc48b-7abd-4d31-af06-cd3755458632
-      position: {x: 0, y: 0}
+    - fullName: Get_Variable
+      uid: f168d1c3-e3c8-4553-a2f0-b4fea8b2b62b
+      position: {x: 600, y: -40}
       nodeUIDs:
       - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|c7ce957d-0f2f-4125-bdda-42e28db565f3
+    - fullName: Get_Variable
+      uid: 706d1b6f-e573-4541-a191-4b11f9885391
+      position: {x: 600, y: -320}
+      nodeUIDs:
       - 
-      - 
-      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|618cbee8-61bf-4873-8762-fa6744fd9ac3
+    - fullName: VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi
+      uid: 4cea3cef-b0e6-4df1-8e06-632a0602209c
+      position: {x: -380, y: -1080}
+      nodeUIDs: []
+      flowUIDs: []
+      nodeValues: []
+    - fullName: VRCSDKBaseNetworking.__IsOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemBoolean
+      uid: b6aeda16-16ee-4b3b-8772-8a0b87b979fe
+      position: {x: -220, y: -1080}
+      nodeUIDs:
+      - 4cea3cef-b0e6-4df1-8e06-632a0602209c|0
       - 
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|SkyFogMaterial
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
-    - fullName: Get_Variable
-      uid: 03b454f9-b1df-4f44-840a-23f1e3d65d6b
-      position: {x: -460, y: 1460}
+        stringValue: 
+    - fullName: Branch
+      uid: 12c3c6cf-325f-4861-ac8f-e6528d262c6c
+      position: {x: 40, y: -1080}
       nodeUIDs:
-      - 
-      flowUIDs: []
+      - b6aeda16-16ee-4b3b-8772-8a0b87b979fe|0
+      flowUIDs:
+      - 7dd78750-0998-46ca-ab63-df88f13f2a0c
+      - 9e8dc85b-6be4-4e44-afee-a09192f088d3
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|4f8dc48b-7abd-4d31-af06-cd3755458632
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+    - fullName: Event_Custom
+      uid: 3d4a9ffb-1415-463b-b2a3-b8851a0efa85
+      position: {x: -200, y: -1200}
+      nodeUIDs:
+      - 
+      flowUIDs:
+      - 12c3c6cf-325f-4861-ac8f-e6528d262c6c
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|OnValueChanged
+    updateOrder: 0
   graphElementData:
   - type: 5
-    uid: df44742f-24d8-453a-bf08-428a60b34453
+    uid: 24aa1f4d-9c03-4c84-8aaf-07f1341e8dba
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":8.0,"y":131.0,"width":284.0,"height":491.0}}'
   - type: 4
-    uid: a4705f3f-ea71-496d-9e37-e32a34656874
+    uid: dd0573e9-d9b5-4144-95b6-9b4c900c881a
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: 647.21704, y: -802.6719}
-    scale: 0.8695652
+    position: {x: 580.16925, y: -124.55078}
+    scale: 0.7561437
   version: 1.0.0
   showAssembly: 0

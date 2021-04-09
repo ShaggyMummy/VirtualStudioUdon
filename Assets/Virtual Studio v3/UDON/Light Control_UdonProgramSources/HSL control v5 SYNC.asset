@@ -1258,7 +1258,7 @@ MonoBehaviour:
         stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: Event_Custom
       uid: cf922adc-2c94-4c74-bd6d-9d81510d1758
-      position: {x: 120, y: 40}
+      position: {x: 120, y: 60}
       nodeUIDs:
       - 
       flowUIDs:
@@ -1266,15 +1266,16 @@ MonoBehaviour:
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|OnValueChanged
+    updateOrder: 0
   graphElementData:
   - type: 5
-    uid: c1cf3aa9-9ae4-4ddc-8e65-d30d3e9fcea5
+    uid: 24aa1f4d-9c03-4c84-8aaf-07f1341e8dba
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":131.0,"width":296.0,"height":364.0}}'
   - type: 4
-    uid: 9c576455-94f9-4fd6-aae5-c3392b0c1514
+    uid: dd0573e9-d9b5-4144-95b6-9b4c900c881a
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: 695.0118, y: 194.527}
+    position: {x: 500.61624, y: 392.27612}
     scale: 0.57175326
   version: 1.0.0
   showAssembly: 0
